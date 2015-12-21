@@ -14,6 +14,7 @@
 		14EFE9F31C27912100ED1DBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14EFE9F11C27912100ED1DBA /* LaunchScreen.storyboard */; };
 		14EFE9FE1C27912100ED1DBA /* TSShowScrollViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EFE9FD1C27912100ED1DBA /* TSShowScrollViewControllerTests.swift */; };
 		14EFEA091C27912100ED1DBA /* TSShowScrollViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EFEA081C27912100ED1DBA /* TSShowScrollViewControllerUITests.swift */; };
+		14EFEA171C27914900ED1DBA /* TSShoowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EFEA161C27914900ED1DBA /* TSShoowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		14EFEA041C27912100ED1DBA /* TSShowScrollViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TSShowScrollViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14EFEA081C27912100ED1DBA /* TSShowScrollViewControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSShowScrollViewControllerUITests.swift; sourceTree = "<group>"; };
 		14EFEA0A1C27912100ED1DBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14EFEA161C27914900ED1DBA /* TSShoowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSShoowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				14EFE9E81C27912100ED1DBA /* AppDelegate.swift */,
 				14EFE9EA1C27912100ED1DBA /* ViewController.swift */,
+				14EFEA161C27914900ED1DBA /* TSShoowView.swift */,
 				14EFE9EC1C27912100ED1DBA /* Main.storyboard */,
 				14EFE9EF1C27912100ED1DBA /* Assets.xcassets */,
 				14EFE9F11C27912100ED1DBA /* LaunchScreen.storyboard */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14EFEA171C27914900ED1DBA /* TSShoowView.swift in Sources */,
 				14EFE9EB1C27912100ED1DBA /* ViewController.swift in Sources */,
 				14EFE9E91C27912100ED1DBA /* AppDelegate.swift in Sources */,
 			);
